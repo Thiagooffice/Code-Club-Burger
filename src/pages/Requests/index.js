@@ -22,7 +22,7 @@ function Requests() {
     <ListRequests></ListRequests>
 
       <Link to="/">
-        <Button >Voltar</Button>
+        <Button isBack={true} >Voltar</Button>
       </Link>
         
     </Container>

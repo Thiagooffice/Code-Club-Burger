@@ -8,9 +8,22 @@ export const Button = styled.button`
     flex-grow: 0;
     margin: 14px 0px;
     margin-bottom: 51px;
-    background: #D93856;
+    background:${props => props.isBack ? "rgba(255, 255, 255, 0.14)" : " #D93856"};
     border: none;
     transition: all 0.1s;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 2px;
+/* or 15% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+
 
     &:hover{
         background: #E24E67;
